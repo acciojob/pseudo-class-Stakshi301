@@ -1,11 +1,10 @@
 /*  your css code here. If applicable */
 #container{
 	margin:20px;
-	
 }
 
 #container::before {
-    content: "This is content before the container.";
+    content: "Before Element";
     color: #f00;
     font-size: 20px;
     display: block;
@@ -14,7 +13,7 @@
 
 /* Pseudo-element to insert content after */
 #container::after {
-    content: "This is content after the container.";
+    content: "After Element";
     color: #f00;
     font-size: 20px;
     display: block;
